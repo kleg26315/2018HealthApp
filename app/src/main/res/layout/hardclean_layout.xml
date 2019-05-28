@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard Clean"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/militarypress" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:src="@drawable/howto1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 양손에 덤벨을 들고 다리를 어깨너비만큼 벌리고 선다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 덤벨을 양쪽 귀 옆으로 들어 올린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 머리 위로 덤벨을 쭉 뻗어 올린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. 다시 덤벨을 귀 옆으로 내린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. 차렷 자세로 돌아온다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. 발바닥에 힘을 주며 엉덩이를 무릎 높이까지 천천히 내려 스쿼트 자세를 만든다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. 다시 차렷 자세로 일어난다. 동작을 반복한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 몸을 너무 흔들지 않도록 한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 반동을 이용하지 않는다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/effect"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 전신 근지구력을 향상시켜주고, 상체와 하체의 모든 근력을 발달에도 큰 도움이 된다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 전신 운동인만큼 칼로리 소모도 매우 효과적이다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

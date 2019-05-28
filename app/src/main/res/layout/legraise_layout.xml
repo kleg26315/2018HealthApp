@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leg Raise"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/barbellsquat1" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:src="@drawable/howto1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 벤치에 앉아서 그대로 눕습니다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 벤치 윗부분을 손으로 잡고 날개뼈(견갑골)을 벤치에 밀착시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 무릎은 살짝만 구부린 상태에서 배에 힘을 주고 숨을 내쉬며 다리를 들어올립니다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. 배에 긴장을 유지한 채 숨을 들이쉬며 다리를 천천히 원위치로 내려줍니다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 다리를 들어올리는 동작에서 골반까지 함께 가슴쪽으로 말아주어 복부를 최대한 수축한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 복부의 근력이 약하면 벤치에서 허리가 많이 뜨게되어 무리가 갈 수 있으므로 주의합니다. "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/effect"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 복근이 아닌 장요근으로 실시하는 코어운동이다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 골반의 근육을 이용해 복근을 단련한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 이때 복근의 기능은 운동을 안정적으로 진행할 수 있게 돕는 보조근육의 역할이다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

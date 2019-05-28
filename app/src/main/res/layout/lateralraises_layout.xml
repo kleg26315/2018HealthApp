@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dumbbell Lateral Raise"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/militarypress" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:src="@drawable/howto1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 어깨너비로 다리를 벌리고 덤벨을 들어 손바닥이 몸쪽을 향하게 해서 허벅지 옆에 위치시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 팔꿈치를 살짝 구부려 고정한 상태에서 전완이 어깨와 평행이 될 때까지 덤벨을 양옆으로 들어올린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 저항을 느끼면서 천천히 덤벨을 허벅지 옆으로 내린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 어깨높이 이상으로 덤벨을 들어올릴 경우 승모근의 개입이 많아지게 되므로 정해진 범위 내에서 운동하도록 한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 팔이 옆으로 올라가는 동작에서 흉곽이 넓어져 흉압이 떨어지기 때문에 수축 시 숨을 들이마시도록 한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/effect"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 삼각근의 선명도를 높일 수 있는 단관절 운동 중 측면 삼각근을 발달시키기 위한 운동이다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 프레스 동작과 달리 자극시키는 근육의 범위를 제한할 수 있다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 목표 부위의 수축에 집중할 수 있다는 장점이 있다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

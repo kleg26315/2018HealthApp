@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kimkyoungsub.health">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:installLocation="preferExternal"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" android:label="머슬 매니져"></activity>
+        <activity android:name=".Timer_Activity" android:label="타이머"></activity>
+        <activity android:name=".All_Activity" android:label="전신"></activity>
+        <activity android:name=".Upperbody_Activity" android:label="상체"></activity>
+        <activity android:name=".Lowerbody_Activity" android:label="하체"></activity>
+        <activity android:name=".Abdomen_Activity" android:label="복부"></activity>
+       <activity android:name=".Search_Activity" android:label="검색"></activity>
+        <activity android:name=".Buppy_Activity" android:label="버피">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".All_Activity"/>
+        </activity>
+        <activity android:name=".Dumbbelfrontraise_Activity" android:label="덤벨 프론트 레이즈">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Upperbody_Activity"/>
+        </activity>
+        <activity android:name=".Lateralraises_Activity" android:label="덤벨 레더럴 레이즈">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Upperbody_Activity"/>
+        </activity>
+        <activity android:name=".Militarypress_Activity" android:label="밴드 밀리터리 프레스">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Upperbody_Activity"/>
+        </activity>
+        <activity android:name=".Pushup_Activity" android:label="푸쉬업">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Upperbody_Activity"/>
+        </activity>
+        <activity android:name=".DetailRecord"
+            android:label="상세기록"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dumbbelfrontraise_Activity"/>
+        </activity>
+        <activity android:name=".Legextension_Activity" android:label="레그 익스텐션">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Lowerbody_Activity"/>
+        </activity>
+        <activity android:name=".Legpress_Activity" android:label="레그 프레스">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Lowerbody_Activity"/>
+        </activity>
+        <activity android:name=".Barbellsquart_Activity" android:label="바벨 스쿼트">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Lowerbody_Activity"/>
+        </activity>
+        <activity android:name=".Crunch_Activity" android:label="크런치">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Abdomen_Activity"/>
+        </activity>
+        <activity android:name=".Russiantwist_Activity" android:label="러시안 트위스트">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Abdomen_Activity"/>
+        </activity>
+        <activity android:name=".Legraise_Activity" android:label="레그레이즈">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Abdomen_Activity"/>
+        </activity>
+        <activity android:name=".Armwalking_Activity" android:label="암 워킹">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".All_Activity"/>
+        </activity>
+        <activity android:name=".Hardclean_Activity" android:label="하드 클린">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".All_Activity"/>
+        </activity>
+    </application>
+
+</manifest>

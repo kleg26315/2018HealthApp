@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leg Extension"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/barbellsquat1" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:src="@drawable/howto1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 등받이에 등을 대고 손잡이를 잡고 발을 패드에 고정시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 다리를 들어올려 무릎을 펴서 허벅지 근육을 수축시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 천천히 저항을 느끼면서 다리를 내리고 긴장을 유지한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 엉덩이가 의자에서 들리지 않도록 주의한다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[호흡] 숨을 내쉬며 뻗고 들이마쉬며 굽힌다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/effect"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="허벅지 근육 강화"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <!--<TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="엉덩이 근육 강화"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>-->
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dumbbell Front Raise"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/militarypress" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:src="@drawable/howto1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 어깨너비로 선채로 바벨을 양손으로 잡는다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 팔꿈치를 옆구리에 고정시키고 바벨을 들어올린다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 이두의 저항을 느끼면서 천천히 원위치시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 팔꿈치가 흔들리지 않도록 고정시킨다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[주의] 올리면서 내뱉고 내리면서 마신다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/effect"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 삼각근의 선명도를 높일 수 있는 단관절 운동 중 전면 삼각근을 발달시키기 위한 운동이다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 프레스 동작과 달리 자극시키는 근육의 범위를 제한할 수 있다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 목표 부위의 수축에 집중할 수 있다는 장점이 있다."
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
