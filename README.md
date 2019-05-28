@@ -9,11 +9,13 @@
    
 --------------------
 (1) 개발 환경
+
 	1) Language : JAVA , XML
 	2) Tools : Android Studio, SDK, AVR(Android Virtual Device)
 	
 	
 (2) 개발 방법
+
  	 안드로이드 스튜디오(Android Studio)를 이용하여 개발하고, SDK (Standard Development Kit)
 	 에 있는 컴파일러로 실행파일을 만들었습니다.
  	 실행 파일은 달빅 가상머신 환경에서 AVD(Android Virtual Device)를 이용하여 실행시켰습니다.
@@ -21,6 +23,7 @@
 	 
 	 
 (3) 제약 요건
+
  	 운동 동영상의 저작권 문제, 타이머기능의 음악 저작권 문제
 	
 (4) 시스템 시나리오
